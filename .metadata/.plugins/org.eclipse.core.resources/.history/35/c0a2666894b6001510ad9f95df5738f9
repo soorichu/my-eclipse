@@ -1,0 +1,14 @@
+package UML_exam;
+
+class Client{
+	
+	Server server;
+	void work(){
+		
+		server.opens();
+		server.print("Hello");
+		server.close();
+	}
+	
+	
+}

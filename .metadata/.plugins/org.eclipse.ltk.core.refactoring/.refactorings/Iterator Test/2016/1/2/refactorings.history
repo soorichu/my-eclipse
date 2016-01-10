@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;Iteraters&apos; to &apos;DesignJava1/src&apos;&#x0A;- Original project: &apos;Iterator Test&apos;&#x0A;- Destination element: &apos;DesignJava1/src&apos;&#x0A;- Original element: &apos;Iterator Test/src/Iteraters&apos;" description="Copy package" destination="=DesignJava1/src" element1="/src&lt;Iteraters" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1452328064476" version="1.0"/>
+</session>

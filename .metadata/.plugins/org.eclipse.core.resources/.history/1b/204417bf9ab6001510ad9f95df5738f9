@@ -1,0 +1,18 @@
+package UML_exam;
+
+class Server(){
+	
+	Server(){}
+	void open(){
+		System.out.println("open");
+		
+	}
+	void print(String s){
+		System.out.println(s);
+	}
+	void close(){
+		System.out.println("close");
+		
+	}
+	
+}

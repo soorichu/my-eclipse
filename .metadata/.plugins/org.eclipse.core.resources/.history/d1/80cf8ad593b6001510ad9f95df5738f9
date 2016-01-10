@@ -1,0 +1,40 @@
+package UML_exam;
+
+class SequenceDiagram {
+	public static void main(String arg[]){
+		Client c = new Client();
+		c.work();
+		
+	}
+	
+
+}
+
+class Client{
+	
+	Server server;
+	void work(){
+		
+		server.open();
+		server.print("Hello");
+		server.close();
+	}
+	
+	
+}
+
+class Server(){
+
+	void open(){
+		System.out.println("open");
+		
+	}
+	void print(String s){
+		System.out.println(s);
+	}
+	void close(){
+		System.out.println("close");
+		
+	}
+	
+}
